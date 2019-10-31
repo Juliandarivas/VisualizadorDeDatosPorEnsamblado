@@ -7,17 +7,17 @@ namespace Example.Consola
     {
         static void Main(string[] args)
         {
-            Elemento elemento = new Elemento();
+            Element element = new Element();
 
-            string mensaje = $@"
-                PackageId: {elemento.PackageId}
-                PackageVersion = {elemento.PackageVersion}
-                Author = {elemento.Author}
-                Company = {elemento.Company}
-                Product = {elemento.Product}
-                Description = {elemento.Description}";
+            string message = $@"
+                PackageId: {element.PackageId}
+                PackageVersion = {element.PackageVersion}
+                Author = {element.Author}
+                Company = {element.Company}
+                Product = {element.Product}
+                Description = {element.Description}";
 
-            Console.WriteLine(mensaje);
+            Console.WriteLine(message);
         }
     }
 }

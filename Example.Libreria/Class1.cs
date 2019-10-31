@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace Example.Libreria
 {
-    public class Elemento
+    public class Element
     {
         public string PackageId { get; set; }
         public string PackageVersion { get; set; }
@@ -12,7 +12,7 @@ namespace Example.Libreria
         public string Product { get; set; }
         public string Description { get; set; }
 
-        public Elemento()
+        public Element()
         {
             Assembly ensamblado = Assembly.GetEntryAssembly();
 
