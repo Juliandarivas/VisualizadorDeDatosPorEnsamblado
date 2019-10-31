@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>Julian Rivas</Authors>
+    <Company>Lab</Company>
+    <Product>Visualizador de datos por ensamblado</Product>
+    <Description>Programa para visualizar datos de ensamblado a partir de referencia de proyectos.</Description>
+    <Version>1.0.1</Version>
+    <PackageId>Example.Consola</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Example.Libreria\Example.Libreria.csproj" />
+  </ItemGroup>
+
+</Project>
+    
